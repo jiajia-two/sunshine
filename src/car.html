@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/car.css">
+    <link rel="stylesheet" href="./css/same.css">
+    <link rel="stylesheet" href="./lib/assets/font-awesome/css/font-awesome.css">
+    <script src="./lib/require.js" type="text/javascript" data-main="./js/car"></script>
+    <title>购物车</title>
+</head>
+<body>
+    <div class="shop-top">
+        <div class="container clearfix">
+            <ul class="fl zuo">
+                <li><a href="./index.html" style="cursor:pointer">首页</a></li>
+                <li><a href="./load.html" class="user">登录</a></li>
+                <li><a href="./register.html" class="pwd">注册</a></li>
+            </ul>
+            <ul class="fr">
+                <li style="color:rgb(235, 125, 125)">我的购物车<span>------></span></li>
+                <li>确认订单信息<span>------></span></li>
+                <li>成功提交订单</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main1">
+                <div class="fr">
+                    <a href="./list.html" style="background: gray" style="cursor:pointer">继续购物</a>
+                    <a href="#" style="background:rgb(228, 65, 65)" style="cursor:pointer">去结算</a>
+                </div>  
+            </div>
+            <div class="main2 clearfix">
+                <div class="num fl"><span>0</span>件商品</div>
+                <ul class="fr">
+                    <li>单价</li>
+                    <li>进口税</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                </ul>
+            </div>
+            <div class="buy">
+                <ul class="buylist">       
+                      
+                </ul>
+            </div>
+            <div class="res clearfix">
+                <span class="fl clear"style="cursor:pointer" >清空购物车</span>
+                <span class="fr">共<em id="shu">0</em>件商品，总价：<em id="sum"></em></span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="footer">
+        <div class="footer1">
+            <ul class="clearfix">
+                <li>
+                <span></span>正品原汁原味</li>
+                <li>
+                <span></span>国检监督入仓</li>
+                <li>
+                <span></span>快速清关报备</li>
+                <li>
+                <span></span>国内物流配送</li>
+                <li>
+                <span></span>用户收货确认</li>
+            </ul>
+        </div>
+        <div class="footer2">
+            <div class="footer-links clearfix"> 
+                <dl class="col-links">
+                    <dt>新手上路 </dt>
+                    <dd><a href="javascript:">购物流程</a></dd>
+                    <dd><a href="javascript:">支付方式</a></dd>
+                    <dd><a href="javascript:">实名认证</a></dd>
+                    <dd><a href="javascript:">常见问题</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>配送方式 </dt>
+                    <dd><a href="javascript:">配送方式</a></dd>
+                    <dd><a href="javascript:">物流跟踪</a></dd>
+                    <dd><a href="javascript:">验货签收</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>购物指南</dt>
+                    <dd><a href="javascript:">通关税费</a></dd>
+                    <dd><a href="javascript:">商品税率表</a></dd>
+                    <dd><a href="javascript:">跨境购物</a></dd>
+                    <dd><a href="javascript:">正品保障</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>售后服务</dt>
+                    <dd><a href="javascript:">退货原则</a></dd>
+                    <dd><a href="javascript:">退款说明</a></dd>
+                    <dd><a href="javascript:">取消订单</a></dd>
+                    <dd><a href="javascript:">退货流程</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>关于我们 </dt>
+                    <dd><a href="javascript:">阳光海淘</a></dd>
+                    <dd><a href="javascript:">投诉与建议</a></dd>
+                    <dd><a href="javascript:">联系方式</a></dd>
+                </dl>
+                <div class="col-contact fl">
+                    <p>阳光海淘-邮海淘</p>
+                    <p><img src="./imgs/weixin.jpg" widht="80" height="80"></p>
+                    <a class="alltime">24小时在线客服</a>
+                    </div>
+            </div> 
+        </div>
+        <div class="last clearfix" >
+            <p>&copy; 2005-2018 阳光海淘 版权所有，并保留所有权利。E-mail: kefu@i-sunny.cn                  
+                <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11003669号-1</a>
+            </p>  
+        </div>
+    </div>
+    <div class="go-top">
+        <div class="person style="cursor:pointer"">
+            <i class="fa  fa-user" aria-hidden="true"  style="cursor:pointer"></i>
+            <div  class="pmsg">
+            <div><img src="./imgs/people.gif" alt=""></div>
+            <p><a href="./load.html" style="cursor:pointer" class="user">登录</a>|<a href="./register.html" class="pwd">注册</a></p>
+            </div>
+        </div>
+        <div class="shop-car"><i class="car-pic1"></i><a>购物车</a><i class="all-num">0</i></div>
+        <div class="dibu">
+            <p><i class="fa fa-weixin" aria-hidden="true"  style="cursor:pointer"></i><img src="./imgs/weixin.jpg" alt="" class="erpic"></p>
+            <p class="back" style="cursor:pointer">TOP</p>  
+        </div>
+        
+    </div>
+    <div id="top-fix">
+        <h2 class="fl"><img src="./imgs/log.gif" alt=""></h2>
+        <ul class="nav-items fl">
+            <li class="active">
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="./index.html"  rel="nofollow">母婴用品</a>
+            </li>
+            <li>
+                <a href="./list.html"  rel="nofollow">团购商品</a>
+            </li>
+            <li>
+                <a href="javascript:"  rel="nofollow">积分兑换</a>
+            </li>
+            <li>
+                <a href="javascript:"  rel="nofollow">预售活动</a>
+            </li>
+            <li>
+                <a href="javascript:"  rel="nofollow">0元秒杀</a>
+            </li>
+        </ul>
+    </div>
+        
+    
+</body>
+</html>

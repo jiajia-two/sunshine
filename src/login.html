@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./lib/require.js" type="text/javascript" data-main="./js/login"></script>
+    <title>登录页面</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="top1 clearfix">
+                <div class="log1 fl">
+                    <a href="./load.html"><img src="./imgs/log.gif" alt=""></a>
+                </div>
+            </div>
+            <div class="top2 fr">
+                如未注册，点此
+                <a href="register.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="reg-form">
+                <div class="top3">会员登录</div>
+                <div class="form">     
+                    
+                    <div class="input">
+                       <input type="text" id="userName" name="userName"placeholder="用户名，手机，邮箱">
+                        <span id="tip1"></span> 
+                    </div> 
+                    <p id="txtUserName_error"></p>              
+                    <div class="input">
+                       <input type="password" id="password" name="password" placeholder="密码">
+                        <span id="tip3"></span>
+                    </div>     
+                    <p id="txtPassword_error"></p>             
+                    <div class="agree">
+                        <input type="checkbox" id="sure" checked>
+                        请保存我这次的登录信息 <a href="#">忘记密码</a>
+                    </div>
+                    <input name="Submit" type="submit" value="登录" class="load-btn" style="cursor: pointer;">
+                    <div class="third">使用第三方协议
+                    <img src="css/img/app-login.png" height="30" width="230" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div id="foot">
+                <div class="link">
+                    <a href="#">关于海淘</a>
+                    <a href="#">商务合作</a>
+                    <a href="#">帮助中心</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">网站地图</a>
+                </div>
+                <div class="version">Copyright@ 2012--2017 i-sunny.cn版本所有|京ICP备11003669号-1|内容举报：kefu@i-sunny.cn</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

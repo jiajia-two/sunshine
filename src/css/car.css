@@ -1,0 +1,147 @@
+.container{
+    width:1100px;
+}
+
+.shop-top{
+    height:64px;
+    line-height:64px;
+    padding-left:20px;
+    background:#3E3A39;
+    color:#fff;
+}
+.shop-top ul li{
+    float: left;
+}
+
+
+.shop-top .zuo li a{
+    color:#fff;
+    display:block;
+    width:80px;
+    font-size:14px;
+
+}
+
+.main{
+    padding-bottom:200px;
+    background: #dddddd;
+}
+
+.main .main1{
+    height:60px;
+    padding-right:80px;
+    padding-top:10px;
+}
+.main .main1>div a{
+    display:block;
+    line-height: 40px;
+    width:70px;
+    height:40px;
+    font-size:14px;
+    float: left;
+    color:#fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-right:20px;
+}
+.main .main2{
+    height:60px;
+    padding-top:20px;
+    background: #fff;
+    padding-left:40px;
+    border:1px solid #ccc;
+}
+.main .main2 ul li{
+    float: left;
+    margin-right:92px;
+}
+
+.main .buy .buylist li{
+    height:100px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:80px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+
+
+}
+.main .buy .buylist li .photo img{
+    display: inline-block;
+    width:70px;
+    height:60px;
+    margin-right:20px;
+}
+.main .buy .buylist li .title{
+    display: inline-block;
+    width:475px;
+    font-size:16px;
+}
+.main .buy .buylist li .price{
+    color:red;
+    margin-right: 80px;
+}
+.main .buy .buylist li .car-add{
+    margin-left:60px;
+    margin-right:38px;
+}
+.main .buy .buylist li .del{
+    text-align: center;
+    margin-top:20px;
+    width:60px;
+    background: rgb(207, 206, 206);
+    border-radius: 10px;
+    display: block;
+    margin-right:-20px;
+
+}
+.main .buy .buylist  .car-add{
+    display: inline-block;
+}
+.main .buy .buylist  .car-add>span{
+    display:inline-block;
+    border:1px solid #ccc;
+    background: #aaa;
+    color:#fff;
+    width:30px;
+    height:25px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.main .buy .buylist .car-add .num{
+    vertical-align: bottom;
+    margin-right:5px;
+    text-align: center;
+    width:40px;
+    height:25px;
+    border:1px solid #ccc;
+
+}
+.main .res{
+    line-height: 60px;
+    margin-top:30px;
+    height:60px;
+    padding-left:40px;
+    padding-right:40px;
+    background: #eee;
+}
+.main .res .clear{
+    padding:0 10px ;
+    margin-top:10px;
+    line-height: 40px;
+    height:    40px;
+    border:1px solid #3E3A39;
+    border-radius: 9px;
+    color:#e73736;
+    background: #ffe6e6;
+}
+.main #shu{
+    color:#e73736;
+    margin-right:10px;
+    margin-left:10px;
+}
+.main #sum{
+    color:#e73736;
+    margin-left:10px;
+}
+
